@@ -9,11 +9,13 @@ Use conditional statements to compare the numbers.
 
 
 
-
-number1=int(input('enter the first number'))
-number2=int(input('enter the second number'))
-if (number1>number2):
-    print(number1,'is greater than',number2)
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
+num3=int(input("Enter the third number: "))
+if num1>num2 and num1>num3:
+    print(num1,"is greater")
+elif num2>num3 and num2>num1:
+    print(num2,"is greater")
 else:
-    print(number2,'is greater than',number1)
+    print(num3,"is greater")
 
