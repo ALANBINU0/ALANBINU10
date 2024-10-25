@@ -1,4 +1,7 @@
-
+'''
+Name:Alan Binu
+Date:25-10-2024
+'''
 number1=int(input('enter the first number'))
 number2=int(input('enter the second number'))
 if number1>number2:
